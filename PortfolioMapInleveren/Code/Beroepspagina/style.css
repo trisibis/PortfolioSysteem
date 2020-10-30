@@ -1,0 +1,207 @@
+        body {
+            font-family: arial;
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            background: url("fotos/hoofdAchtergrond.jpg");
+            height: 2000px;
+        }
+
+        .wrapper{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 5em;
+            grid-column-gap: 2em;
+        }
+        
+        .wrapper > div{
+            background: rgba(220,220,220, 0.8);
+            padding: 1em;
+
+        }
+
+        .wrapper > .box1 {
+            background: #4d4d4d;
+        }
+
+        .box1{
+            grid-column: 1/3;
+            padding: 2em;
+            
+        }
+        .box1 a {
+            float:right;
+            padding:0.5em;
+            text-decoration: none;
+            font-family: arial;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .box2 {
+            grid-row: 2/8;
+            margin-left: 5em;
+            grid-auto-columns: minmax(100px, auto);
+        }
+
+        .box3 {
+            margin-right: 5em;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: minmax(100px, auto);
+            grid-row: 2/8;
+        }
+
+        
+
+        /*Persoonlijke informatie gedeelte*/
+        .tekstvlak1 {
+            display:grid;
+            box-sizing: border-box;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            padding-left: 30%;
+            padding-right: 15%;
+            margin-bottom: 1em;
+
+        }
+
+        
+        .tekstvlak1 th {
+            text-align: left;
+            width: 30%
+        }
+
+
+        /*Overzicht kwalificaties gedeelte*/
+        .tekstvlak2 {
+            display:grid;
+            box-sizing: border-box;
+            margin-bottom: 2em;
+            padding-left: 25%;
+            padding-right: 25%;
+            
+        }
+        
+        .tekstvlak2 p {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            border: 2px solid rgb(109, 102, 102);
+        }
+
+
+        .tekstvlak2 ul {
+            list-style-type: circle;
+            border: 2px solid rgb(109, 102, 102);
+
+        }
+
+        /*Visie en toekomstbeeld gedeelte en Andere informatie gedeelte*/
+        .tekstvlak3 {
+            text-align: center;
+            margin-bottom: 2em;
+            padding: 1em;
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        .tekstvlak3 > div {
+            display: grid;
+            grid-auto-rows: minmax(300px, auto);
+        }
+
+        .tekstvlak3 h1 {
+            text-align: center;
+            font-size: 1em;
+            text-decoration: underline;
+        }
+
+        /*Dit is het projecten gedeelte*/
+
+        #kopje{
+            text-align: center;
+            grid-column: 1/3;
+        }
+
+        .circle1 {
+            width: 400px;
+            height: 400px;
+            margin-left: 2em;
+
+        }
+
+        .circle1 > img {
+            border-radius: 50%;
+        }
+
+        .circle2 {
+            width: 400px;
+            height: 400px;
+            opacity: 0;
+            margin-left: 2em;
+        }
+        .circle3 {
+            width: 400px;
+            height: 400px;
+            margin-left: 2em;
+            opacity: 0;
+        }
+        .circle4 {
+            width: 400px;
+            height: 400px;
+            margin-left: 2em;
+        }
+        .circle5 {
+            width: 400px;
+            height: 400px;
+            margin-left: 2em;
+        }
+        .circle6 {
+            width: 400px;
+            height: 400px;
+            margin-left: 2em;
+            opacity: 0;
+        }
+
+        /*Hier komt de afbeelding van de persoon*/
+        .foto {
+            margin-top:2em;
+            padding-left: 25%;
+        }
+
+
+        /*Dit is de contactpagina*/
+
+        .form {
+            display:grid;
+            grid-template-columns: 1fr ;
+            padding:5em;
+            grid-template-rows: 1000px;
+        }
+
+        .form > div {
+            background: url("fotos/achtergrondContact.jpg");
+        }
+        .tabelclass {
+            border: 2px solid #4d4d4d;
+            padding: 5em;
+            margin: auto;
+            margin-top: 10em;
+            background: rgba(220,220,220, 0.3);
+
+        }
+
+        #tableTitel {
+            text-align: center;
+            color: rgb(220,220,220);
+            letter-spacing: 0.3em;
+            padding-top: 20px;
+        }
+
+        .tabelclass th  {
+            width: 150px;
+        }
+
+
+
+

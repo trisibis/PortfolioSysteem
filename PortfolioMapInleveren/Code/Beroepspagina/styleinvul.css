@@ -1,0 +1,54 @@
+
+/*Algemene styling*/
+form {
+    padding: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+
+}
+
+textarea {
+    width: 200px;
+    height:100px;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+.rform {
+    margin-top: 100px;
+}
+
+p {
+    font-size: 2em;
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+.gelukt {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+/*Styling buttonknop*/
+.submitKnop {
+    margin-top: 2em;
+}
+
+.button {
+    background-color: #707070;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
